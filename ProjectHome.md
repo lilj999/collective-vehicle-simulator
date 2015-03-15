@@ -1,0 +1,7 @@
+This simulator for VANETs is inspired by Biological Collective Intelligence.
+
+On one hand, frequently changing of the relative position of vehicles will affect the communication topology, which results in inefficiency of traditional communication technologies, and sometimes even impossibility to communicate. On the other hand, traffic information carried by communication may also influence the vehicles' future driving behavior. For example,  through ITS, drivers may get some information from the traffic  administrator and these information can be used for avoiding accidents, directing traffic or controlling topology. Especially, the existing simulation tools are either for the simulation of communication, such as NS2/NS3, opnet, either for the traffic flow simulation, such as SUMO. Though some simulation tools, such as \cite{Piorkowski2008}, integrate the simulation of communication and traffic flow,  most of them face problems on scalability and cannot support interactions between travelling of vehicles and road information of communication.
+
+The proposed model consists of three parts: vehicle dynamics laws(i.e. Newton laws), traffic rules constraints and collective evolution rules.
+
+In the simulation, vehicles enter the simulation area from the left side in equal time intervals, and reaches the right to leave the network.
